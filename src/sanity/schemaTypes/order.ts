@@ -1,4 +1,4 @@
-export default {
+const orderschema = {
   name: "order",
   title: "Order",
   type: "document",
@@ -29,3 +29,4 @@ export default {
     { name: "status", type: "string", title: "Order Status", options: { list: ["pending", "shipped", "delivered"] } },
   ],
 };
+export default orderschema;
